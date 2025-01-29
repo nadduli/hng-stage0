@@ -43,6 +43,7 @@ uvicorn main:app --reload
 `https://hng-stage0-production-0990.up.railway.app/`
 
 ### **GET /**
+GET /hire/python-developers
 
 #### **Response Format**
 - **HTTP 200 OK**
