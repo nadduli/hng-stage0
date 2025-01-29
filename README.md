@@ -22,6 +22,20 @@ This is a public API developed for **HNG12** Stage 0 Backend task. The API provi
 
 ---
 
+## Installation
+1. Clone the repository:
+git clone https://github.com/nadduli/hng-stage0.git
+cd hng-stage0
+
+2. Install Dependencies:
+pip install -r requirements.txt
+
+3. Run the app:
+uvicorn main:app --reload
+
+4. Open in browser:
+`http://127.0.0.1:8000`
+
 ## API Documentation
 
 ### **Endpoint**
