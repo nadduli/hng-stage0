@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-"""Entry point to my app"""
 
 from datetime import datetime, timezone
 from fastapi import FastAPI
@@ -17,7 +15,7 @@ app.add_middleware(
 )
 
 
-@app.get("/", response_model=dict)
+@app.get("/")
 async def get_info():
     """
     Returns basic information in Json Format
