@@ -13,7 +13,7 @@ app.add_middleware(
 )
 
 
-@app.get("/")
+@app.get("/hire/python-developers/")
 async def get_info():
     """
     Returns basic information in Json Format
