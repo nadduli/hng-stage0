@@ -42,7 +42,7 @@ This is a public API developed for **HNG12** Stage 0 Backend task. The API provi
 ```
 
 ### Deployment
-The API is deployed on `https://hng-stage0-production-0990.up.railway.app/
+The API is deployed on `https://hng-stage0-production-0990.up.railway.app/`
 
 ### Useful Links
 * [Hire Python Developers](https://hng.tech/hire/python-developers)
