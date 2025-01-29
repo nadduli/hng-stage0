@@ -26,10 +26,11 @@ This is a public API developed for **HNG12** Stage 0 Backend task. The API provi
 
 ### **Endpoint**
 #### Base URL:
-`https://hng-stage0-production-0990.up.railway.app/
-`GET /
+`https://hng-stage0-production-0990.up.railway.app/`
 
-### **Response Format**
+### **GET /**
+
+#### **Response Format**
 - **HTTP 200 OK**
 
 ```json
@@ -38,6 +39,7 @@ This is a public API developed for **HNG12** Stage 0 Backend task. The API provi
   "current_datetime": "2025-01-30T09:30:00Z",
   "github_url": "https://github.com/yourusername/your-repo"
 }
+```
 
 ### Deployment
 The API is deployed on `https://hng-stage0-production-0990.up.railway.app/
