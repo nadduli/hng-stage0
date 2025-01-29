@@ -22,5 +22,5 @@ async def get_info():
     return {
         "email": "naddulidaniel94@gmail.com",
         "current_datetime": datetime.now().isoformat() + "Z",
-        "github_url": "https://github.com/nadduli/hng-stage0.git",
+        "github_url": "https://github.com/nadduli/hng-stage0",
     }
