@@ -8,10 +8,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
+    allow_origins=["*"]
 )
 
 
@@ -22,8 +19,6 @@ async def get_info():
     """
     return {
         "email": "naddulidaniel94@gmail.com",
-        "current_datetime": datetime.now(timezone.utc)
-        .isoformat()
-        .replace("+00:00", "Z"),
+        "current_datetime": datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z"),
         "github_url": "https://github.com/nadduli/hng-stage0.git",
     }
